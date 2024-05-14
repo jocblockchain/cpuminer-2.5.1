@@ -1,2 +1,10 @@
-#./minerd -a scrypt -o http://127.0.0.1:96666 -O jocouser:jocopass --coinbase-addr=joco1qc3v7qducz5eaqsv8s8c8kf9xstwmea6nq5l93m
-./minerd -a scrypt -o http://127.0.0.1:9666 -u jocouser -p jocopass -t 1 -D --no-stratum --no-longpoll --no-getwork --coinbase-addr=joco1qc3v7qducz5eaqsv8s8c8kf9xstwmea6nq5l93m
+#Algorithm: Scrypt
+#Url: http:#127.0.0.1 or locahost
+#RPC Port: 9666
+#RPC User: Your RPC username
+#RPC Password: Your RPC password
+#Thread: -t core number for minning
+#Stratum: --no-stratum not use a stratum server
+#Address: --coinbase-addr=YOUR_JOCO_WALLET
+
+./minerd -a scrypt -o http://127.0.0.1:9666 -u rpcuser -p rpcpass -t 1 -D --no-stratum --no-longpoll --no-getwork --coinbase-addr=JOCO_ADDRESS
