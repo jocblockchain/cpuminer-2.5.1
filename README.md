@@ -6,6 +6,7 @@ Using:
 ./minerd -a scrypt -o http://127.0.0.1:9666 -u rpcuser -p rpcpass -t 1 -D --no-stratum --no-longpoll --no-getwork --coinbase-addr=JOCO_ADDRESS
 ```
 
+# Options
 
 - Algorithm: Scrypt
 - Url: http:#127.0.0.1 or locahost
